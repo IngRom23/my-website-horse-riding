@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> CONTACT US Page </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<a href="#"><img id="logo" src="logo.jpg"></a>
+
+
+
+<style>
+
+  #logo {
+    display: inline-block;
+    margin: 5px; /* margin: 20px was off */
+    float: center;
+    height: 100px;
+    width: auto; /* correct proportions to specified height */
+    border-radius: 100%; /* makes it a circle */
+    border: 3px solid #fce605
+  }
+}   
+
+
+body {
+  font-family: Times new roman, arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: center;
+}
+
+input[type=submit] {
+  background-color: #d3d3d3;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #fce605;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #3ded97;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+footer {
+  background-color: #3ded97;
+  height: 5%;
+  width: 5%
+  font-family:"Times New Roman", serif;
+  padding: 5px;
+  color:#000000
+
+}
+.footer-content{
+  display: flex;
+  align-items:center;
+  justify-content: auto;
+  flex-direction: column;
+  text-align: auto;
+}
+.footer-content h3 {
+  font-size:50px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 10px;
+}
+
+.footer-content p1 {
+  max-width:100px;
+  margin: 10px auto;
+  line-height: 20px;
+  font-size: 20px;
+}
+.footer-content p2 {
+  max-width:100px;
+  margin: 10px auto;
+  line-height: 20px;
+  font-size: 20px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+body {
+  background-image: url('sunset 3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 100%;
+}  
+
+
+ul {
+  body {font-family:"Times New Roman", serif}
+  margin: 10;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+
+}
+
+li a {
+  display: block;
+  color: #000000 ;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #3ded97;
+  color: black;
+  
+}
+
+li a:hover:not(.active) {
+  background-color: #3ded97;
+  color: grey;
+}
+
+<!-- Gallery -->
+
+div.gallery {
+    border: 1px solid #3ded97;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #fce605;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 50%;
+  }
+  
+  div.desc {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+
+
+</style>
+</head>
+<body>
+
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="leisure.html">Leisure</a></li>
+    <li><a href="About us.html">About Us</a></li>
+    <li><a class="active" href="Contact us.html">Contat Us</a></li>
+  </ul>   
+</div>  
+
+
+
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Come visit us, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="cheval 3.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="mauritius">Mauritius</option>
+          <option value="rodrigues">Rodrigues</option>
+          <option value="other">Others</option>
+        </select>
+        <label for="subject">How cav we help you?</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div> <!-- This is the style for the form available in the contact us page -->
+
+<footer>
+  <div class="footer-content">
+    <h3>HORSE RIDING DELIGHTS</h3>
+    <p1> Thank You for your visit!</p1>
+    <p2> You can also follow us on:</p2>
+    <ul class="socials">
+      <!-- awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-pinterest"></a>
+
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    <p>copyright &copy;2021 Horse Riding Delights. Designed by <span>Ingrid</span></p>
+  </div>
+</footer>
+  
+
+
+
+
+</body>
+</html>
